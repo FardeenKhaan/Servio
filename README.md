@@ -11,36 +11,19 @@ A modern, pixel-perfect, and high-performance **On-Demand Home Services Booking 
 
 ## 📱 App Screens & Features Overview
 
-### 🚀 1. Splash Screen
-- Branded logo entrance powered by `flutter_animate` with smooth ease-out scaling.
-- Seamless automatic transition to the Home screen using declarative GetX routing.
-
-### 🏠 2. Home Screen
-- **Pinned Dual-Tone Geometric Header**: Custom `_HeaderFacetClipper` replicating the exact diagonal polygon aesthetic (`#004E42` primary & `#2A6251` secondary) with seamless status bar integration.
-- **Real-Time Reactive Search**: Live query filtering across service categories and providers simultaneously.
-- **2x4 Service Categories Grid**: Clean circular pastel containers with dedicated high-resolution vector icon assets.
-- **Top Providers Section**: Displays ratings, review counts, starting rates, and interactive reactive bookmark toggles.
-- **Tap-To-Dismiss Keyboard**: Tapping anywhere outside the search bar or scrolling down immediately dismisses the on-screen keyboard.
-
-### 🧹 3. Category Providers Screen (Home Cleaning)
-- **Custom Top App Bar**: Elevated circular back button and category title.
-- **Search & Provider Filter**: Dedicated search input with interactive filter tune action.
-- **Provider Cards**: Detailed service cards with verified badges, hourly rate pills, bookmark state, and *"Book"* CTA.
-
-### 👤 4. Provider Profile Screen
-- **Parallax Header & Overlapping Avatar**: Immersive background banner with circular profile picture border and *"Fully booked"* status pill.
-- **Provider Identity & Office Address**: Full provider credentials with interactive location pin.
-- **Stats Highlights**: Three pastel metric cards showing overall rating (`⭐ 4.9`), total bookings, and services offered.
-- **Expandable Biography ("About Me")**: Smooth inline expandable text toggle for full description view.
-- **Selectable Service Chips**: Horizontal interactive service selection pills.
-- **Staff Count & Reviews Card**: Overlapping reviewer avatar stack with rating indicators.
-- **Portfolio & Certificates**: Horizontal work samples gallery and credential cards.
+##### 👉 App Screen Shots #####
+<img width="150" height="300" alt="1" src="https://github.com/user-attachments/assets/748ec2c5-e50f-43a9-b9c2-b501d35f9a44" />
+<img width="150" height="300" alt="2" src="https://github.com/user-attachments/assets/aa502557-a4ab-4c09-8be1-44ae623c1432" />
+<img width="150" height="300" alt="3" src="https://github.com/user-attachments/assets/3bc6f809-777b-4d91-aeb9-a7a82995646c" />
+<img width="150" height="300" alt="5" src="https://github.com/user-attachments/assets/86e8a3b1-8325-4e3a-ab59-47c8ec91008c" />
+<img width="150" height="300" alt="4" src="https://github.com/user-attachments/assets/5bdb6da1-2497-4b8f-a7f0-8892053725d5" />
 
 ---
 
+
 ## 📱 APK Download
 
-### 👉 [Download Servio Android APK](https://drive.google.com/file/d/your-apk-link/view?usp=sharing)
+### 👉 [Download Servio Android APK][(https://drive.google.com/file/d/your-apk-link/view?usp=sharing)](https://drive.google.com/file/d/1eY2N06QGoPGi59jghDAxH6yy7owZ4msQ/view?usp=sharing)
 
 > You can download and install the standalone release APK directly on any Android device (Android 5.0+ / API 21+).
 
