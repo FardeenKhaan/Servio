@@ -1,0 +1,211 @@
+import '../models/provider_model.dart';
+import '../models/service_category.dart';
+import '../utils/constants/colors.dart';
+import '../utils/constants/image_strings.dart';
+
+class ServioData {
+  static const List<ServiceCategory> categories = [
+    ServiceCategory(
+      id: 'cleaning',
+      title: 'Cleaning',
+      assetPath: FkImages.cleaningIcon,
+      bgColor: FkColors.categoryBg,
+    ),
+    ServiceCategory(
+      id: 'carpentry',
+      title: 'Carpentry',
+      assetPath: FkImages.carpentryIcon,
+      bgColor: FkColors.categoryBg,
+    ),
+    ServiceCategory(
+      id: 'laundry',
+      title: 'Laundry',
+      assetPath: FkImages.laundryIcon,
+      bgColor: FkColors.categoryBg,
+    ),
+    ServiceCategory(
+      id: 'painting',
+      title: 'Painting',
+      assetPath: FkImages.paintingIcon,
+      bgColor: FkColors.categoryBg,
+    ),
+    ServiceCategory(
+      id: 'logistics',
+      title: 'Logistics',
+      emoji: '🚚',
+      bgColor: FkColors.categoryBg,
+    ),
+    ServiceCategory(
+      id: 'cooking',
+      title: 'Cooking',
+      assetPath: FkImages.cookingIcon,
+      bgColor: FkColors.categoryBg,
+    ),
+    ServiceCategory(
+      id: 'electric_work',
+      title: 'Electric work',
+      assetPath: FkImages.electricWorkIcon,
+      bgColor: FkColors.categoryBg,
+    ),
+    ServiceCategory(
+      id: 'plumbing',
+      title: 'Plumbing',
+      assetPath: FkImages.plumbingIcon,
+      bgColor: FkColors.categoryBg,
+    ),
+  ];
+
+  static List<ProviderModel> topProviders = [
+    ProviderModel(
+      id: 'sam_davies',
+      name: 'Sam Davies',
+      avatar: FkImages.providerJonathan,
+      rating: 4.9,
+      reviewCount: '2.2k reviews',
+      hourlyRate: 30,
+      services: ['Cooking', 'Laundry', 'Cleaning', 'Home repair'],
+      officeAddress: 'Villa 27, Street 12, Al Barsha 2, Dubai',
+      totalBookings: 19,
+      servicesOffered: 4,
+      about:
+          'Sam Davies offers all-around home assistance including expert culinary meal prep, laundry management, and meticulous sanitization.',
+      isBookmarked: false,
+    ),
+    ProviderModel(
+      id: 'jonathan_ken',
+      name: 'Jonathan Ken',
+      avatar: FkImages.providerElliot,
+      rating: 4.8,
+      reviewCount: '1.5k reviews',
+      hourlyRate: 28,
+      services: ['Home cleaning', 'Deep clean', 'Sanitization'],
+      officeAddress: 'Building 4, Sector 7, Business Bay, Dubai',
+      totalBookings: 14,
+      servicesOffered: 3,
+      about:
+          'Jonathan Ken is a certified home cleaning professional with over 8 years of extensive experience delivering top-tier residential sanitization services.',
+      isBookmarked: false,
+    ),
+    ProviderModel(
+      id: 'sarah_milner',
+      name: 'Sarah Milner',
+      avatar: FkImages.providerSarah,
+      rating: 4.7,
+      reviewCount: '1.4k reviews',
+      hourlyRate: 28,
+      services: ['Laundry', 'Ironing', 'Dry Clean'],
+      officeAddress: 'Tower 1, Jumeirah Lake Towers, Dubai',
+      totalBookings: 14,
+      servicesOffered: 4,
+      about:
+          'Sarah Milner is a specialist in fabric care, garment restoration, and premium laundry care.',
+      isBookmarked: false,
+    ),
+    ProviderModel(
+      id: 'elliot_james',
+      name: 'Elliot James',
+      avatar: FkImages.providerSam,
+      rating: 4.5,
+      reviewCount: '1.1k reviews',
+      hourlyRate: 25,
+      services: ['Carpentry', 'Furniture Repair'],
+      officeAddress: 'Building 4, Sector 7, Business Bay, Dubai',
+      totalBookings: 8,
+      servicesOffered: 2,
+      about:
+          'Elliot James specializes in custom furniture carpentry and comprehensive home repairs with precision craftsmanship.',
+      isBookmarked: false,
+    ),
+    ProviderModel(
+      id: 'jane_mia',
+      name: 'Jane Mia',
+      avatar: FkImages.providerJane,
+      rating: 4.8,
+      reviewCount: '1.3k reviews',
+      hourlyRate: 28,
+      services: ['Plumbing', 'Pipe Repair'],
+      officeAddress: 'Downtown Boulevard, Downtown Dubai',
+      totalBookings: 12,
+      servicesOffered: 3,
+      about:
+          'Jane Mia is an accredited professional plumber tackling all domestic plumbing, leak repairs, and fixture installations.',
+      isBookmarked: false,
+    ),
+  ];
+
+  static List<ProviderModel> getCleaningProviders() => [
+    ProviderModel(
+      id: 'jonathan_ken',
+      name: 'Jonathan Ken',
+      avatar: FkImages.providerJonathan,
+      rating: 4.9,
+      reviewCount: '1.5k reviews',
+      hourlyRate: 30,
+      services: ['Home cleaning', 'Deep cleaning'],
+      officeAddress: 'Villa 27, Street 12, Al Barsha 2, Dubai',
+      totalBookings: 10,
+      servicesOffered: 3,
+      about:
+          'Jonathan Ken is a certified home cleaning professional with over 8 years of extensive experience delivering top-tier residential sanitization services.',
+      isBookmarked: true,
+    ),
+    ProviderModel(
+      id: 'elliot_james',
+      name: 'Elliot James',
+      avatar: FkImages.providerElliot,
+      rating: 4.5,
+      reviewCount: '1.1k reviews',
+      hourlyRate: 25,
+      services: ['Home cleaning', 'Window cleaning'],
+      officeAddress: 'Building 4, Sector 7, Business Bay, Dubai',
+      totalBookings: 8,
+      servicesOffered: 2,
+      about:
+          'Elliot James specializes in window polishing and deep eco-friendly surface cleaning.',
+      isBookmarked: false,
+    ),
+    ProviderModel(
+      id: 'sarah_milner',
+      name: 'Sarah Milner',
+      avatar: FkImages.providerSarah,
+      rating: 4.7,
+      reviewCount: '1.4k reviews',
+      hourlyRate: 28,
+      services: ['Home cleaning', 'Sanitization'],
+      officeAddress: 'Tower 1, Jumeirah Lake Towers, Dubai',
+      totalBookings: 14,
+      servicesOffered: 4,
+      about:
+          'Sarah Milner provides complete residential deep cleaning and sanitization.',
+      isBookmarked: false,
+    ),
+    ProviderModel(
+      id: 'sam_davies',
+      name: 'Sam Davies',
+      avatar: FkImages.providerSam,
+      rating: 4.6,
+      reviewCount: '2.2k reviews',
+      hourlyRate: 22,
+      services: ['Home cleaning', 'Carpet cleaning'],
+      officeAddress: 'Marina Gate 2, Dubai Marina, Dubai',
+      totalBookings: 19,
+      servicesOffered: 3,
+      about: 'Sam Davies is a carpet and upholstery cleaning specialist.',
+      isBookmarked: false,
+    ),
+    ProviderModel(
+      id: 'jane_mia',
+      name: 'Jane Mia',
+      avatar: FkImages.providerJane,
+      rating: 4.8,
+      reviewCount: '1.3k reviews',
+      hourlyRate: 28,
+      services: ['Home cleaning', 'Organizing'],
+      officeAddress: 'Downtown Boulevard, Downtown Dubai',
+      totalBookings: 12,
+      servicesOffered: 3,
+      about: 'Jane Mia is an expert home organizer and detail cleaner.',
+      isBookmarked: false,
+    ),
+  ];
+}
